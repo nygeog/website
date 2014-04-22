@@ -96,9 +96,9 @@ img {
 }
 
 header {
-	width:270px;
-	float:none;
-	position:fixed;
+  width:270px;
+  float:left;
+  position:fixed;
 }
 
 header ul {
