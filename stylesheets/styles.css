@@ -186,8 +186,12 @@ footer {
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
-    width:auto;
-    margin:0;
+	width:auto;
+	margin:0;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-bottom-style: groove;
+	border-left-style: groove;
   }
   
   header, section, footer {
