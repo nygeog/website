@@ -48,7 +48,7 @@ var path = d3.geo.path()
     .projection(projection)
     .context(context);
 
-d3.json("http://bl.ocks.org/mbostock/raw/4090846/world-110m.json", function(error, world) {
+d3.json("world-110m.json", function(error, world) {
   var graticule = d3.geo.graticule()(),
       land = topojson.feature(world, world.objects.land),
       boundary = topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; });
