@@ -1,0 +1,14 @@
+# Site settings
+title: NYGeog
+email: 
+description: > # this means to ignore newlines until "baseurl:"
+  I'm a Geographer/GIS Analyst at Columbia University as well as a student at the Institute for Data Science 
+  and Engineering at Columbia University. I program in Python. For geoprocessing I use ArcPy, Shapely,
+   GDAL and OGR. I'm interested in learning more FOSS4G, specifically PostGIS and online mapping tools.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://nygeog.com" # the base hostname & protocol for your site
+twitter_username: nygeog
+github_username:  nygeog
+
+# Build settings
+markdown: kramdown
